@@ -1,12 +1,7 @@
-KETC Website Version 3.0 - Phase 1
+KETC Website V3 Phase 2 - Multidisciplinary Positioning
 
-Changes included:
-- Premium homepage hero section
-- Engineering visual graphic
-- Trust indicators section
-- Why Choose KETC section
-- Improved homepage typography and spacing
-- Better CTA buttons
-- New SVG assets: hero-engineering.svg and blueprint-pattern.svg
-- SEO links updated for https://kabirengineering.com
-- robots.txt and sitemap.xml updated for the new domain
+- Repositioned KETC as an integrated multidisciplinary engineering, digital and AI-enabled consultancy.
+- Added mechanical, electrical, civil/infrastructure, data science and website development capability wording.
+- Replaced Engineering Translation with Technical Documentation & Multilingual Localisation.
+- Added AI-enhanced documentation with professional human review.
+- Updated services, hero message, trust band, about section, industries and SEO metadata.
