@@ -1,0 +1,12 @@
+KETC Website Version 3.0 - Phase 1
+
+Changes included:
+- Premium homepage hero section
+- Engineering visual graphic
+- Trust indicators section
+- Why Choose KETC section
+- Improved homepage typography and spacing
+- Better CTA buttons
+- New SVG assets: hero-engineering.svg and blueprint-pattern.svg
+- SEO links updated for https://kabirengineering.com
+- robots.txt and sitemap.xml updated for the new domain

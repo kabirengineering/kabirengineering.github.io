@@ -1,0 +1,24 @@
+KETC Website Version 3.0 - Phase 1 (Domain Ready)
+
+IMPORTANT: Keep a backup of your current live website before uploading.
+
+FILES TO UPLOAD TO GITHUB:
+1. index.html
+2. style.css
+3. robots.txt
+4. sitemap.xml
+5. assets folder with all files inside
+
+UPLOAD METHOD:
+1. Open GitHub repository: kabirengineering/kabirengineering.github.io
+2. Click Add file > Upload files
+3. Drag all files and the assets folder from this package.
+4. Click Commit changes.
+5. Wait 1-2 minutes.
+6. Open https://kabirengineering.com
+7. Press Ctrl + F5 if the old version appears.
+
+NOTES:
+- This package is configured for https://kabirengineering.com
+- Do not change Cloudflare DNS records.
+- Keep GitHub Pages custom domain as kabirengineering.com.

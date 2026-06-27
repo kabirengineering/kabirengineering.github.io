@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+<rect width="900" height="260" fill="#071426"/>
+<rect x="32" y="32" width="196" height="196" rx="30" fill="#d9b76d"/>
+<text x="130" y="150" text-anchor="middle" font-family="Arial" font-weight="900" font-size="58" fill="#071426">KETC</text>
+<line x1="270" y1="70" x2="270" y2="190" stroke="#d9b76d" stroke-width="5"/>
+<text x="305" y="104" font-family="Segoe UI, Arial" font-weight="800" font-size="34" fill="#ffffff">KABIR ENGINEERING &amp;</text>
+<text x="305" y="150" font-family="Segoe UI, Arial" font-weight="800" font-size="34" fill="#ffffff">TECHNICAL CONSULTANCY</text>
+<text x="305" y="190" font-family="Segoe UI, Arial" font-size="19" fill="#dbe7f7">Engineering Knowledge • Professional Documentation • Trusted Consultancy</text>
+</svg>
