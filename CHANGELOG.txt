@@ -1,7 +1,9 @@
-KETC Website V3 Phase 2 - Multidisciplinary Positioning
+KETC Website Version 3 - Phase 3 Premium Ready
 
-- Repositioned KETC as an integrated multidisciplinary engineering, digital and AI-enabled consultancy.
-- Added mechanical, electrical, civil/infrastructure, data science and website development capability wording.
-- Replaced Engineering Translation with Technical Documentation & Multilingual Localisation.
-- Added AI-enhanced documentation with professional human review.
-- Updated services, hero message, trust band, about section, industries and SEO metadata.
+Main changes:
+- Replaced separate Mechanical/Electrical/Civil/Infrastructure service labels with one stronger heading: Multidisciplinary Engineering Consultancy.
+- Added premium consultancy workflow section.
+- Expanded AI-enhanced documentation, data science, digital engineering and website development presentation.
+- Improved SEO meta description and structured data.
+- Improved service, industry, portfolio and resource sections.
+- Kept family/private details off the public website and used professional wording: specialist associates / Australian-based digital specialists.
