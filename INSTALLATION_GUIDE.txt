@@ -1,17 +1,9 @@
-KETC Website V3 Phase 3 - Installation Guide
+KETC Website V4 - Installation Guide
 
-1. Open GitHub repository: kabirengineering/kabirengineering.github.io
-2. Click Add file > Upload files.
-3. Upload the extracted folder contents, not the ZIP file.
-4. Upload these together:
-   - assets folder
-   - index.html
-   - style.css
-   - robots.txt
-   - sitemap.xml
-   - CHANGELOG.txt
-   - INSTALLATION_GUIDE.txt
-5. Confirm GitHub shows files such as /assets/favicon.svg, /assets/hero-engineering.svg, etc.
-6. Commit directly to the main branch.
-7. Wait 1-3 minutes and open https://kabirengineering.com
-8. Press Ctrl+F5 if the old version appears.
+1. Extract this ZIP file.
+2. Open the extracted folder.
+3. Upload the assets folder and all root files to GitHub Pages repository.
+4. Keep the folder structure exactly as provided.
+5. Commit directly to the main branch.
+6. Wait 2-5 minutes for GitHub Pages deployment.
+7. Refresh https://kabirengineering.com using Ctrl + F5.
