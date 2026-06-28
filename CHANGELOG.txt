@@ -1,12 +1,11 @@
-KETC Website Version 4.0 - Final Flagship Edition
+KETC Website Version 5 – Executive / Corporate Edition
 
-Major upgrades:
-- Expanded into a full premium corporate consultancy website.
-- Added About KETC and Founder profile section.
-- Added eight professional service categories.
-- Added process / methodology section.
-- Added industries, portfolio, resources and contact sections.
-- Strengthened positioning: Integrated Engineering, Digital & AI Consultancy.
-- Included Multidisciplinary Engineering Consultancy as the main engineering category.
-- Added Technical Translation & Localisation, AI-assisted documentation, Data Science and Website Development.
-- Improved SEO metadata and professional content structure.
+Major updates:
+- Repositioned homepage around services rather than broad industries.
+- Added official corporate tagline: Engineering Excellence. Technical Precision. Digital Innovation.
+- Added executive credibility statistics based on founder CV.
+- Added founder section with professional portrait.
+- Added service-focused architecture for multidisciplinary engineering, EPC documentation, technical documentation, AI-enhanced documentation, digital engineering and localisation.
+- Added International Specialist Network section including Australian-based digital/data support wording.
+- Added professional Proposal Request Centre with form.
+- Updated SEO metadata, canonical URL, robots.txt and sitemap.xml for kabirengineering.com.
