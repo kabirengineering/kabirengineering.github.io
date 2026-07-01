@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-<rect width="128" height="128" rx="26" fill="#071426"/>
-<rect x="18" y="18" width="92" height="92" rx="18" fill="#d9b76d"/>
-<text x="64" y="76" text-anchor="middle" font-family="Arial" font-weight="900" font-size="34" fill="#071426">KETC</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#06172c"/><path d="M14 46V18h10v11l13-11h14L35 32l17 14H38L24 34v12H14z" fill="#d7b56d"/></svg>
