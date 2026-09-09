@@ -1,11 +1,18 @@
-KETC Website Version 5 – Executive / Corporate Edition
+KETCO Website Version 6.0 - Revised Final Flagship Edition
 
-Major updates:
-- Repositioned homepage around services rather than broad industries.
-- Added official corporate tagline: Engineering Excellence. Technical Precision. Digital Innovation.
-- Added executive credibility statistics based on founder CV.
-- Added founder section with professional portrait.
-- Added service-focused architecture for multidisciplinary engineering, EPC documentation, technical documentation, AI-enhanced documentation, digital engineering and localisation.
-- Added International Specialist Network section including Australian-based digital/data support wording.
-- Added professional Proposal Request Centre with form.
-- Updated SEO metadata, canonical URL, robots.txt and sitemap.xml for kabirengineering.com.
+Final revisions 07-09-2026:
+- KETCO naming standardised throughout primary branding.
+- Four primary activities fixed as Engineering • Renewable Energy • Website Development • Consultancy.
+- Added separate client-positioning line: Serving Government, Corporate & International Clients.
+- Header uses the supplied K favicon with its gold surrounding rectangle.
+- Footer uses the supplied KETCO logo asset.
+- Professional Expertise • Innovative Solutions • Reliable Results retained consistently.
+- robots.txt and sitemap.xml use https://kabirengineering.com/.
+- SEO/social asset references corrected to KETCO filenames.
+- Primary service structure kept to four categories.
+
+Master-complete recheck:
+- Replaced favicon with the approved K master favicon file.
+- Replaced website logo with the approved A1 KETCO master logo file.
+- Updated social metadata to use ketco-social-card.png.
+- Rechecked primary wording for the four approved activities and Reliable Results.

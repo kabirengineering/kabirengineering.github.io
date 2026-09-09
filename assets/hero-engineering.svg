@@ -1,28 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-label="Premium engineering illustration showing power, industry and infrastructure">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img"
+ aria-label="KETCO engineering illustration: Engineering, Renewable Energy, Website Development and Consultancy">
   <defs>
-    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1f36"/><stop offset="1" stop-color="#174a78"/></linearGradient>
-    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#f2d68a"/><stop offset="1" stop-color="#d4af37"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#03101e" flood-opacity=".35"/></filter>
+    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#0b1f36"/><stop offset="1" stop-color="#174a78"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop stop-color="#f2d68a"/><stop offset="1" stop-color="#d4af37"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#03101e" flood-opacity=".35"/>
+    </filter>
   </defs>
+
   <rect width="900" height="650" rx="42" fill="url(#g1)"/>
-  <g opacity=".18" stroke="#fff" fill="none"><path d="M70 95H830M70 165H830M70 235H830M70 305H830M70 375H830M70 445H830M70 515H830"/><path d="M120 45V590M220 45V590M320 45V590M420 45V590M520 45V590M620 45V590M720 45V590"/></g>
+  <g opacity=".18" stroke="#fff" fill="none">
+    <path d="M70 95H830M70 165H830M70 235H830M70 305H830M70 375H830M70 445H830M70 515H830"/>
+    <path d="M120 45V590M220 45V590M320 45V590M420 45V590M520 45V590M620 45V590M720 45V590"/>
+  </g>
+
   <g filter="url(#shadow)">
-    <rect x="95" y="105" width="710" height="430" rx="28" fill="#071426" opacity=".85" stroke="#d4af37" stroke-opacity=".35"/>
+    <rect x="95" y="82" width="710" height="400" rx="28" fill="#071426" opacity=".85"
+          stroke="#d4af37" stroke-opacity=".35"/>
     <g fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M165 480V310l70-75 70 75v170"/>
-      <path d="M235 235v-80M205 175h60M190 205h90"/>
-      <path d="M345 480V285h105v195M450 480V250h120v230M570 480V320h115v160"/>
-      <path d="M380 318h35M380 355h35M380 392h35M485 290h45M485 330h45M485 370h45M608 355h40M608 395h40"/>
-      <path d="M155 480h560"/>
+      <path d="M165 430V285l70-75 70 75v145"/>
+      <path d="M235 210v-80M205 150h60M190 180h90"/>
+      <path d="M345 430V260h105v170M450 430V225h120v205M570 430V295h115v135"/>
+      <path d="M380 293h35M380 330h35M380 367h35M485 265h45M485 305h45M485 345h45M608 330h40M608 370h40"/>
+      <path d="M155 430h560"/>
     </g>
     <g fill="url(#gold)">
-      <circle cx="705" cy="190" r="54" opacity=".95"/>
-      <path d="M704 115v36M704 229v36M630 190h36M744 190h36M652 138l25 25M731 217l25 25M756 138l-25 25M677 217l-25 25" stroke="#d4af37" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="705" cy="165" r="54" opacity=".95"/>
+      <path d="M704 90v36M704 204v36M630 165h36M744 165h36M652 113l25 25M731 192l25 25M756 113l-25 25M677 192l-25 25"
+            stroke="#d4af37" stroke-width="9" stroke-linecap="round"/>
     </g>
-    <g stroke="#eaf3ff" stroke-width="5" fill="none" opacity=".85"><path d="M150 145c110 38 202 38 312 0s202-38 312 0"/><path d="M150 188c110 38 202 38 312 0s202-38 312 0" opacity=".55"/></g>
+    <g stroke="#eaf3ff" stroke-width="5" fill="none" opacity=".85">
+      <path d="M150 120c110 38 202 38 312 0s202-38 312 0"/>
+      <path d="M150 163c110 38 202 38 312 0s202-38 312 0" opacity=".55"/>
+    </g>
   </g>
-  <g transform="translate(94 555)">
-    <rect width="712" height="52" rx="18" fill="#fff" opacity=".08"/>
-    <text x="30" y="34" fill="#f2d68a" font-size="22" font-family="Arial, sans-serif" font-weight="700">POWER • INDUSTRY • INFRASTRUCTURE • EPC • DOCUMENTATION</text>
+
+  <!-- Approved four service pillars: kept fully inside its own box -->
+  <g transform="translate(94 500)">
+    <rect width="712" height="60" rx="18" fill="#06172c" opacity=".94" stroke="#d4af37" stroke-width="2"/>
+    <text x="356" y="37" text-anchor="middle" fill="#f2d68a"
+          font-size="19" font-family="Arial, sans-serif" font-weight="700">
+      Engineering • Renewable Energy • Website Development • Consultancy
+    </text>
+  </g>
+
+  <!-- Approved professional positioning: kept fully inside a separate box -->
+  <g transform="translate(94 570)">
+    <rect width="712" height="54" rx="18" fill="#ffffff" opacity=".08" stroke="#d4af37" stroke-width="1.5"/>
+    <text x="356" y="34" text-anchor="middle" fill="#ffffff"
+          font-size="18" font-family="Arial, sans-serif" font-weight="700">
+      Professional Expertise • Innovative Solutions • Reliable Results
+    </text>
   </g>
 </svg>

@@ -1,26 +1,25 @@
-KETC GitHub Pages Ready Website v2
+KETCO V6 MASTER COMPLETE WEBSITE
 
-This package is VERIFIED and contains the files needed for GitHub Pages.
+Upload the complete contents of this folder to the root of the GitHub Pages repository.
 
-Upload these items to your GitHub repository:
+Required root files:
 - index.html
 - style.css
+- script.js
 - robots.txt
 - sitemap.xml
+- CNAME
+- googlee92cda818e137ad2.html
+- CHANGELOG.txt
 - README_PUBLISHING_GUIDE.txt
-- assets folder
+- INSTALLATION_GUIDE.txt
+- ASSET_MANIFEST.txt
+- assets/
 
-How to upload:
-1. Extract this ZIP.
-2. Open the extracted folder.
-3. Select all files and the assets folder.
-4. Drag them to GitHub > uploading an existing file.
-5. Click Commit changes.
-6. Go to Settings > Pages.
-7. Source: Deploy from a branch.
-8. Branch: main / root.
-9. Save.
-10. Your website should be live at: https://kabirengineering.github.io/
+Custom domain:
+https://kabirengineering.com/
 
-Contact form note:
-The form is visual only. Later connect it with Google Forms, Formspree, Netlify Forms, or other form service.
+Important:
+Keep the assets folder structure unchanged.
+The top header uses the approved K favicon; the full KETCO master logo appears in the About section and footer.
+The four primary activities are Engineering, Renewable Energy, Website Development and Consultancy.

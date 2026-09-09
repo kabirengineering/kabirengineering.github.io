@@ -1,0 +1,13 @@
+KETCO V6 REV4 ASSET MANIFEST
+
+Single active asset folder: /assets
+
+Approved active assets:
+- favicon.svg — user-supplied K favicon with gold surround
+- ketco-logo.svg — user-supplied KETCO logo
+- ketco-social-card.png — corrected with approved K favicon
+- hero-engineering.svg — approved revised Hero Engineering
+- blueprint-pattern.svg — retained and used in the hero panel
+
+No separate master-assets duplicate folder is included.
+No other website wording/content was intentionally changed in REV4.

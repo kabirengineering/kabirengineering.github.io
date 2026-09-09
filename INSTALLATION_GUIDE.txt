@@ -1,19 +1,21 @@
-KETC Website Version 5 – Installation Guide
+KETCO Website Version 6.0 – Master Complete Installation Guide
 
-1. Extract this ZIP file first. Do not upload the ZIP file itself.
-2. Open your GitHub repository: kabirengineering/kabirengineering.github.io
-3. Click Add file > Upload files.
-4. Drag all extracted contents together:
-   - assets folder
-   - index.html
-   - style.css
-   - robots.txt
-   - sitemap.xml
-   - CHANGELOG.txt
-   - INSTALLATION_GUIDE.txt
-5. Confirm GitHub shows assets/... files, not loose SVG files at root.
-6. Click Commit changes directly to the main branch.
-7. Wait 1–3 minutes.
-8. Open https://kabirengineering.com and press Ctrl+F5.
+1. Keep a backup of the current GitHub repository before replacing files.
+2. Extract KETCO_V6_MASTER_COMPLETE_07-09-2026.zip.
+3. Open the GitHub Pages repository used for kabirengineering.com.
+4. Upload the complete extracted contents to the repository root.
+5. Keep the assets folder structure unchanged.
+6. Confirm these root files are present: index.html, style.css, script.js, CNAME, robots.txt, sitemap.xml and googlee92cda818e137ad2.html.
+7. Confirm assets/favicon.svg, assets/ketco-logo.svg, assets/ketco-social-card.png, assets/blueprint-pattern.svg and assets/hero-engineering.svg are present.
+8. Commit the files to the main branch.
+9. Wait for GitHub Pages deployment, then open https://kabirengineering.com/ and refresh with Ctrl+F5.
+10. Check desktop and mobile navigation, favicon, KETCO logo, buttons, email links, social preview metadata and all four primary service categories.
 
-Important: The proposal form currently uses a mailto fallback. For a fully professional online form with document upload, connect Formspree, Web3Forms, or Google Forms in the next contact/SEO phase.
+Approved primary positioning:
+Engineering • Renewable Energy • Website Development • Consultancy
+
+Approved values:
+Professional Expertise • Innovative Solutions • Reliable Results
+
+Client positioning:
+Serving Government, Corporate & International Clients
