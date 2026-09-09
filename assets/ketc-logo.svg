@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="KETC logo">
-  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f3d990"/><stop offset="1" stop-color="#b98b36"/></linearGradient></defs>
-  <rect width="220" height="220" rx="46" fill="#06172c"/>
-  <path d="M46 159V61h30v38l42-38h42l-49 44 54 54h-43l-46-47v47H46z" fill="url(#g)"/>
-  <path d="M47 180h126" stroke="url(#g)" stroke-width="10" stroke-linecap="round"/>
-</svg>
