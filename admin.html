@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KETCO Insights Admin</title>
+  <style>
+    :root{--navy:#071a31;--gold:#d7b56d;--line:#d9e1e9;--text:#26384d}
+    *{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f7fa;color:var(--text)}
+    header{background:var(--navy);color:#fff;padding:20px} header strong{color:var(--gold);font-size:1.2rem}
+    main{width:min(760px,calc(100% - 32px));margin:32px auto;background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px;box-shadow:0 10px 30px rgba(7,26,49,.08)}
+    h1{margin-top:0;color:var(--navy)} label{display:block;font-weight:700;margin:18px 0 7px}
+    input,textarea{width:100%;border:1px solid #b9c5d2;border-radius:9px;padding:12px;font:inherit} textarea{min-height:300px;resize:vertical;line-height:1.55}
+    button{margin-top:22px;background:var(--navy);color:#fff;border:1px solid var(--gold);border-radius:9px;padding:12px 20px;font-weight:800;cursor:pointer}
+    button:disabled{opacity:.55;cursor:not-allowed}.note{font-size:.9rem;color:#617084;line-height:1.5}.status{margin-top:16px;font-weight:700}.ok{color:#18743a}.bad{color:#a12c2c}
+    .security{background:#fff8e8;border-left:3px solid var(--gold);padding:12px 14px;margin:18px 0}
+  </style>
+</head>
+<body>
+<header><strong>KETCO</strong> · Insights Admin</header>
+<main>
+  <h1>Add New Insight</h1>
+  <p class="note">This page publishes only to the KETCO Insights data file in the GitHub repository.</p>
+  <div class="security"><strong>Security:</strong> enter your GitHub access token only when publishing. It is used directly by your browser and is not saved in the website files.</div>
+
+  <label for="token">GitHub access token</label>
+  <input id="token" type="password" autocomplete="off" placeholder="github_pat_..." />
+  <p class="note">The token must have Contents: Read and write permission for the repository <strong>kabirengineering/kabirengineering.github.io</strong>.</p>
+
+  <label for="title">Title</label>
+  <input id="title" type="text" placeholder="Insight title" />
+
+  <label for="date">Publication date</label>
+  <input id="date" type="date" />
+
+  <label for="body">Article text</label>
+  <textarea id="body" placeholder="Paste the article here..."></textarea>
+
+  <button id="publish">Publish</button>
+  <div id="status" class="status" role="status"></div>
+</main>
+<script>
+(() => {
+  const OWNER='kabirengineering', REPO='kabirengineering.github.io', PATH='insights.json', BRANCH='main';
+  const token=document.getElementById('token'), title=document.getElementById('title'), date=document.getElementById('date'), body=document.getElementById('body'), button=document.getElementById('publish'), status=document.getElementById('status');
+  date.value=new Date().toISOString().slice(0,10);
+  const api=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${PATH}`;
+  const headers=()=>({'Accept':'application/vnd.github+json','Authorization':`Bearer ${token.value.trim()}`,'X-GitHub-Api-Version':'2022-11-28'});
+  const utf8ToBase64 = str => { const bytes=new TextEncoder().encode(str); let bin=''; bytes.forEach(b=>bin+=String.fromCharCode(b)); return btoa(bin); };
+  const base64ToUtf8 = b64 => { const bin=atob(b64.replace(/\n/g,'')); const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0)); return new TextDecoder().decode(bytes); };
+  const slugify = s => s.toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,80) || `insight-${Date.now()}`;
+
+  button.addEventListener('click', async () => {
+    status.className='status'; status.textContent='';
+    if(!token.value.trim() || !title.value.trim() || !body.value.trim() || !date.value){ status.className='status bad'; status.textContent='Please complete the token, title, date and article text.'; return; }
+    button.disabled=true; button.textContent='Publishing…';
+    try{
+      const get=await fetch(`${api}?ref=${BRANCH}`,{headers:headers()});
+      if(!get.ok) throw new Error(`GitHub could not read Insights (${get.status}). Check the token permission.`);
+      const current=await get.json();
+      const posts=JSON.parse(base64ToUtf8(current.content));
+      posts.unshift({id:slugify(title.value.trim()),title:title.value.trim(),date:date.value,body:body.value.trim()});
+      const payload={message:`Publish insight: ${title.value.trim()}`,content:utf8ToBase64(JSON.stringify(posts,null,2)),sha:current.sha,branch:BRANCH};
+      const put=await fetch(api,{method:'PUT',headers:{...headers(),'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      if(!put.ok){ const detail=await put.json().catch(()=>({})); throw new Error(detail.message || `GitHub publish failed (${put.status}).`); }
+      status.className='status ok'; status.innerHTML='Published successfully. GitHub Pages may take a short time to update. <a href="https://kabirengineering.com/#insights" target="_blank" rel="noopener">Open Insights</a>';
+      title.value=''; body.value=''; date.value=new Date().toISOString().slice(0,10);
+    }catch(err){ status.className='status bad'; status.textContent=err.message; }
+    finally{ button.disabled=false; button.textContent='Publish'; }
+  });
+})();
+</script>
+</body>
+</html>
