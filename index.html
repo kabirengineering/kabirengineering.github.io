@@ -90,10 +90,10 @@
           <p class="hero-lead">Delivering professional consultancy services for government, corporate and international clients through practical engineering knowledge, renewable energy insight, digital capability and disciplined project support.</p>
           <div class="hero-actions">
 
-<a href="mailto:info@kabirengineering.com?subject=KETCO%20Consultation%20Request" class="btn btn-primary">Request Consultation</a>
+<a href="#ketco-enquiry" class="btn btn-primary">Request Consultation</a>
 
             <a href="#services" class="btn btn-secondary">Explore Services</a>
-            <a href="mailto:info@kabirengineering.com?subject=Request%20for%20Quotation" class="btn btn-outline">Get a Quotation</a>
+        <a href="#ketco-enquiry" class="btn btn-outline">Get a Quotation</a>
           </div>
         </div>
         <div class="hero-panel" aria-label="KETCO service overview">
@@ -312,8 +312,8 @@
           <p class="eyebrow">Start a professional discussion</p>
           <h2>Need engineering, renewable energy, website development or consultancy support?</h2>
         </div>
-<a href="mailto:info@kabirengineering.com?subject=KETCO%20Consultation%20Request" class="btn btn-primary">Request Consultation</a>
-       <a class="btn btn-primary" href="mailto:info@kabirengineering.com?subject=KETCO%20Consultation%20Request">Email KETCO</a>
+<a href="#ketco-enquiry" class="btn btn-primary">Request Consultation</a>
+       <a class="btn btn-primary" href="#ketco-enquiry">Email KETCO</a>
      
  </div>
     </section>
@@ -332,7 +332,61 @@
           <p><strong>Platforms</strong><br>LinkedIn, GitHub, Google Business Profile and marketplace profiles can be added as they are established.</p>
         </div>
       </div>
-    </section>
+    </section> <!-- KETCO Online Enquiry Form -->
+<section class="section-pad muted" id="ketco-enquiry">
+  <div class="container">
+
+    <h2>KETCO - Project Enquiry Form</h2>
+    <p>Please complete the form below.
+       Our team will review your enquiry.</p>
+
+    <form action="https://formsubmit.co/info@kabirengineering.com"
+          method="POST"
+          style="max-width:650px;">
+
+      <input type="hidden" name="_subject"
+             value="New KETCO Website Enquiry">
+
+      <input type="hidden" name="_template" value="table">
+
+      <input type="text" name="_honey"
+             style="display:none">
+
+      <label for="client-name">Full Name *</label>
+      <input id="client-name" type="text" name="name"
+             required
+             style="width:100%;box-sizing:border-box;padding:12px;margin:8px 0 18px;">
+
+      <label for="client-email">Email Address *</label>
+      <input id="client-email" type="email" name="email"
+             required
+             style="width:100%;box-sizing:border-box;padding:12px;margin:8px 0 18px;">
+
+      <label for="client-service">Service Required *</label>
+      <select id="client-service" name="service"
+              required
+              style="width:100%;box-sizing:border-box;padding:12px;margin:8px 0 18px;">
+        <option value="">Select a Service</option>
+        <option>Engineering Consultancy</option>
+        <option>Renewable Energy</option>
+        <option>Website Development</option>
+        <option>General Consultancy</option>
+        <option>Other Enquiry</option>
+      </select>
+
+      <label for="client-message">Project Requirements *</label>
+      <textarea id="client-message" name="message"
+                rows="6" required
+                style="width:100%;box-sizing:border-box;padding:12px;margin:8px 0 18px;"></textarea>
+
+      <button type="submit" class="btn btn-primary">
+        Submit Enquiry to KETCO
+      </button>
+
+    </form>
+  </div>
+</section>
+<!-- End KETCO Enquiry Form -->
   </main>
 
   <footer class="site-footer">
